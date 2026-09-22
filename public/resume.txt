@@ -1,0 +1,17 @@
+Marin Moreno
+Software Engineer
+Denver, CO
+dorightforgod@gmail.com
+GitHub: https://github.com/blackicedragonn
+
+Summary
+Full-stack engineer focused on React, TypeScript, Node.js, and MongoDB.
+Comfortable shipping production deployments on Vercel and AWS EC2.
+
+Selected projects
+- MeshAI — RAG knowledge assistant on AWS EC2
+- WorkspaceHub — multi-tenant task tracker with comments on Vercel
+- Flashcards — React SPA from the AI SE curriculum
+
+Skills
+React, TypeScript, Vite, Node.js, Express, MongoDB, JWT, Docker, GitHub Actions, Vercel, AWS EC2

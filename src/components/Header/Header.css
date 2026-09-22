@@ -1,0 +1,128 @@
+.header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 20;
+  height: var(--header-height);
+  background: var(--color-bg-primary);
+  border-bottom: 1px solid #e6eef7;
+}
+
+.header__inner {
+  max-width: var(--content-max);
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.header__brand {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header__brand:hover {
+  color: var(--color-blue);
+}
+
+.header__menu-button {
+  display: none;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #d7e6f5;
+  border-radius: var(--radius-button);
+  background: var(--color-bg-primary);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__menu-button:hover {
+  background: var(--color-hover-secondary);
+}
+
+.header__menu-icon,
+.header__menu-icon::before,
+.header__menu-icon::after {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: var(--color-text-primary);
+  position: relative;
+}
+
+.header__menu-icon::before,
+.header__menu-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.header__menu-icon::before {
+  top: -6px;
+}
+
+.header__menu-icon::after {
+  top: 6px;
+}
+
+.header__panel {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 24px;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header__nav-link:hover {
+  color: var(--color-blue);
+}
+
+.header__mobile-contact {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header__menu-button {
+    display: inline-flex;
+  }
+
+  .header__panel {
+    display: none;
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+    padding: 24px 16px 32px;
+    background: var(--color-bg-primary);
+    border-bottom: 1px solid #e6eef7;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+  }
+
+  .header__panel--open {
+    display: flex;
+  }
+
+  .header__nav-list {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .header__mobile-contact {
+    display: block;
+    padding-top: 8px;
+    border-top: 1px solid #e6eef7;
+  }
+}

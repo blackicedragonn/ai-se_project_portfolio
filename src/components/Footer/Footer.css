@@ -1,0 +1,9 @@
+.footer {
+  background: var(--color-bg-primary);
+  border-top: 1px solid #e6eef7;
+}
+
+.footer__lead {
+  margin: -12px 0 28px;
+  color: var(--color-text-secondary);
+}

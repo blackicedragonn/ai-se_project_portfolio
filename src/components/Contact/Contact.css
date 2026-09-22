@@ -1,0 +1,51 @@
+.contact {
+  display: grid;
+  gap: 24px;
+}
+
+.contact__details {
+  display: grid;
+  gap: 12px;
+}
+
+.contact__link,
+.contact__social {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--color-text-secondary);
+}
+
+.contact__link:hover,
+.contact__social:hover {
+  color: var(--color-blue);
+}
+
+.contact__link img,
+.contact__social img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact__socials {
+  display: flex;
+  gap: 12px;
+}
+
+.contact__social {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid #d7e6f5;
+  justify-content: center;
+  background: var(--color-bg-primary);
+}
+
+.contact__social:hover {
+  background: var(--color-hover-secondary);
+}
+
+.contact--compact .contact__details {
+  gap: 10px;
+}
