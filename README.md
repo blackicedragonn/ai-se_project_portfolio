@@ -1,14 +1,13 @@
 # Marin Moreno — Portfolio
 
-Personal portfolio site for TripleTen AI Software Engineering: hero, projects, skills, and contact.
+Single-page portfolio for TripleTen AI Software Engineering: hero, projects, skills, and contact.
 
-**Live:** _preview URL will be added after the Vercel sprint-12 deploy_
+**Live:** https://ai-se-project-portfolio-git-sprint-12-workspace-hub.vercel.app
 
 ## Stack
 
-- React + TypeScript
-- Vite
-- CSS custom properties
+- React + TypeScript (Vite)
+- CSS custom properties (Figma light-blue palette)
 - GitHub Actions (build, lint, format check)
 - Vercel
 
@@ -24,3 +23,9 @@ npm run dev
 - `npm run build` — production build
 - `npm run lint` — lint
 - `npm run format:check` — Prettier check
+
+## Projects featured
+
+- MeshAI — RAG knowledge assistant on AWS EC2
+- WorkspaceHub — multi-tenant task tracker on Vercel
+- Flashcards — React SPA from the curriculum
