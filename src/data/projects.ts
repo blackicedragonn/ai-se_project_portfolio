@@ -1,7 +1,7 @@
 import type { Project } from "../types";
-import meshAiImg from "../assets/projects/meshai.svg";
-import workspaceHubImg from "../assets/projects/workspacehub.svg";
-import flashcardsImg from "../assets/projects/flashcards.svg";
+import meshAiImg from "../assets/projects/meshai.png";
+import workspaceHubImg from "../assets/projects/workspacehub.png";
+import flashcardsImg from "../assets/projects/flashcards.png";
 
 export const projects: Project[] = [
   {
@@ -31,11 +31,11 @@ export const projects: Project[] = [
     id: "flashcards",
     name: "Flashcards",
     description: [
-      "Spaced-repetition style flashcard SPA built early in the AI Software Engineering track.",
-      "Practiced React state, component composition, and shipping a polished single-page experience.",
+      "Flashcard study app with color-coded decks, a card carousel with flip animations, and deck creation and deletion.",
+      "Built with semantic HTML, responsive CSS, and vanilla JavaScript ES modules. Deployed as a static site on Vercel.",
     ],
     image: flashcardsImg,
     codeUrl: "https://github.com/blackicedragonn/ai-se_project_flashcards",
-    liveUrl: "https://github.com/blackicedragonn/ai-se_project_flashcards",
+    liveUrl: "https://ai-se-project-flashcards.vercel.app",
   },
 ];
