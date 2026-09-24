@@ -28,4 +28,4 @@ npm run dev
 
 - MeshAI — RAG knowledge assistant on AWS EC2
 - WorkspaceHub — multi-tenant task tracker on Vercel
-- Flashcards — React SPA from the curriculum
+- Flashcards — vanilla HTML/CSS/JS study app ([live](https://ai-se-project-flashcards.vercel.app))
